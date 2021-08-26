@@ -1,0 +1,118 @@
+body {
+  width: 1440px;
+  height: 800px;
+  background: #0a0c1c;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  display: flex;
+  /* justify-content: space-around; */
+  width: 1110px;
+  height: 446px;
+  background: #1b1937;
+  flex-wrap: nowrap;
+}
+div.image-card {
+  background: linear-gradient(), url(images/image-header-desktop.jpg);
+  width: 540px;
+  height: 446px;
+}
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  width: 50%;
+}
+h1 {
+  color: white;
+  width: 403px;
+  height: 88px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+h1 span {
+  color: #ab5cdb;
+}
+p {
+  width: 374px;
+  height: 75px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: white;
+}
+div.info-card .info {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  width: ;
+  text-transform: uppercase;
+}
+.info ul {
+  /* display: flex;
+  flex-direction: column; */
+
+  text-align: left;
+  color: white;
+  list-style: none;
+  width: 66.5px;
+}
+.info ul li:nth-child(1) {
+  font-size: 24px;
+  line-height: 29.05px;
+  font-weight: 700;
+}
+.info ul li:nth-child(2) {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.image-card {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width: 375px) {
+  body {
+    width: 1440px;
+    height: 800px;
+    background: #0a0c1c;
+    position: relative;
+  }
+  .card {
+  }
+  .image-card {
+  }
+  h1 {
+  }
+  p {
+  }
+  .info {
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
